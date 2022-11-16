@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/midnight_500"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_courseName"
+        android:text="@string/course_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_coursePeriod"
+        android:text="@string/course_period"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_courseTeacher"
+        android:text="@string/course_faculty"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_courseId"
+        android:text="@string/course_code"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_editCourse"
+            android:text="@string/edit_course"
+            android:textColor="@color/blue_200"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginStart="5dp"
+            android:visibility="gone"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_createAssignment"
+            android:text="@string/create_assignment"
+            android:gravity="end"
+            android:textColor="@color/colorRed"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginEnd="5dp"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

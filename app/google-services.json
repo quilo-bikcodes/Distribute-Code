@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "545255404522",
+    "project_id": "help-cee2c",
+    "storage_bucket": "help-cee2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545255404522:android:b3d0b404a6b2cb51797893",
+        "android_client_info": {
+          "package_name": "mk.tr.coursedy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545255404522-5rqo1lc8haf4rc3ietmqbr7id9qu6a5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.tr.coursedy",
+            "certificate_hash": "cff34b1d3e8972fd39122653776ee345a67f8233"
+          }
+        },
+        {
+          "client_id": "545255404522-qbhd6gbeb8ahotunntla373jse2l28n4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrLdxirV8nW3FBuHRooon789hBmBI-Wfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545255404522-qbhd6gbeb8ahotunntla373jse2l28n4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

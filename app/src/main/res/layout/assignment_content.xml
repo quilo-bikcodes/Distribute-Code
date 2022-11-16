@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/midnight_500">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_assignment_courseName"
+        android:text="@string/course_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_assignment_infoText"
+        android:text="@string/info_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_assignment_date"
+        android:text="@string/assignment_update_date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_assignment_courseId"
+        android:text="date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/assignment_write_answer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg"
+        android:layout_margin="5dp"
+        android:text="@string/upload"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <Button
+        android:id="@+id/show_assignment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answer"
+        android:background="@drawable/buttonbg"
+        android:backgroundTint="@color/colorRed"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>
