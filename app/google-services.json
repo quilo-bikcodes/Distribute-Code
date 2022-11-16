@@ -1,20 +1,20 @@
 {
   "project_info": {
-    "project_number": "545255404522",
-    "project_id": "help-cee2c",
-    "storage_bucket": "help-cee2c.appspot.com"
+    "project_number": "462461177823",
+    "project_id": "coursedy-2",
+    "storage_bucket": "coursedy-2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:545255404522:android:b3d0b404a6b2cb51797893",
+        "mobilesdk_app_id": "1:462461177823:android:79c059e267692f4ba7fe6a",
         "android_client_info": {
           "package_name": "mk.tr.coursedy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "545255404522-5rqo1lc8haf4rc3ietmqbr7id9qu6a5j.apps.googleusercontent.com",
+          "client_id": "462461177823-2nnl4emovc64kbfpvcdfd9pqfpfl2rtp.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "mk.tr.coursedy",
@@ -22,20 +22,20 @@
           }
         },
         {
-          "client_id": "545255404522-qbhd6gbeb8ahotunntla373jse2l28n4.apps.googleusercontent.com",
+          "client_id": "462461177823-mljnll59d8kvfc773hhacd2bd42ml8p9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCrLdxirV8nW3FBuHRooon789hBmBI-Wfg"
+          "current_key": "AIzaSyA1g-MbehWniRuWx9Ot-qoBabktPgMOSbM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "545255404522-qbhd6gbeb8ahotunntla373jse2l28n4.apps.googleusercontent.com",
+              "client_id": "462461177823-mljnll59d8kvfc773hhacd2bd42ml8p9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
