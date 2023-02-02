@@ -20,7 +20,7 @@ def pre_process(sms):
                        stopwords]
    return remove_stopwords
 data['processed'] = data['sms'].apply(lambda x: pre_process(x))
-print(data['processed'].head())
+# print(data['processed'].head())
 
 def categorize_words():
     spam_words = []
@@ -33,8 +33,8 @@ def categorize_words():
             ham_words.append(word)
     return spam_words, ham_words
 spam_words, ham_words = categorize_words()
-print(spam_words[:5])
-print(ham_words[:5])
+# print(spam_words[:5])
+# print(ham_words[:5])
 
 def predict(sms):
     spam_counter = 0
