@@ -55,6 +55,6 @@ def predict(sms):
         print('message is spam, with {}% certainty'.format(accuracy))
 
 
-user_input = input("Please type a spam or ham message to check if our function predicts accurately")
+user_input = input("Please type a message to check if it's a spam or not: ")
 processed_input = pre_process(user_input)
 predict(processed_input)
