@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 import sample_img from "./assets/main.png";
-import bg_img from "./assets/bg.png";
 import Slider from "@mui/material/Slider";
 
 function App() {
