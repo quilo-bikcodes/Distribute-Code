@@ -2,7 +2,7 @@
 ![alt text](src/assets/sample.png "Demo")
 </br>
 </br>
-![alt text]({https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB})
+![alt text](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB "Helo")
 
 # Requirements
 
