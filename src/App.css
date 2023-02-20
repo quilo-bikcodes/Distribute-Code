@@ -1,0 +1,62 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(assets/bgg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.bg-image img {
+  z-index: -100;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+header h1 {
+  font-family: "Mynerve", cursive;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  border: 1px solid;
+  width: fit-content;
+  border-color: rgba(255, 255, 255, 0.126);
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.382);
+  backdrop-filter: blur(5px);
+  --webkit-backdrop-filter: blur(5px);
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  height: 300px;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-wrapper {
+  margin-top: 1.6rem;
+  width: 400px;
+}
