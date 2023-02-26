@@ -3,15 +3,29 @@ import "./App.css";
 import sample_img from "./assets/main.png";
 import Slider from "@mui/material/Slider";
 
+
+
 function App() {
-  const [value, setValue] = useState(19 * 3.6);
+  const [value, setValue] = useState(19 * 3.6)
+  const [change, setChange] = useState(0)
+  // const changes = ((ms)=>{
+  //   for (let i = 0; i <=100; i++){
+  //     setTimeout( () =>{
+  //       console.log(i)
+  //       // setChange(i)
+  //     }, i * ms)
+      
+  //   }
+  // })
+  // changes(2000)
   const handleChange = (event, newValue) => {
-    setValue(newValue * 3.6);
+    setValue(newValue * 3.6)
     // console.log(value);
   };
   const defaultstyle = {
     filter: `hue-rotate(${value}deg)`,
   };
+  
 
   return (
     <div>
